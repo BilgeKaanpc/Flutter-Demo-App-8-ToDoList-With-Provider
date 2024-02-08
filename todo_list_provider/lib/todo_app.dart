@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:todo_list_provider/future_provider.dart';
-import 'package:todo_list_provider/models/todo_model.dart';
 import 'package:todo_list_provider/providers/all_providers.dart';
 import 'package:todo_list_provider/widgets/title_widget.dart';
 import 'package:todo_list_provider/widgets/todo_list_item.dart';
 import 'package:todo_list_provider/widgets/toolbar_widget.dart';
-import 'package:uuid/uuid.dart';
 
 class ToDoApp extends ConsumerWidget {
   ToDoApp({super.key});

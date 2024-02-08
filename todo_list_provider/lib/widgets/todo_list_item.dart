@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:todo_list_provider/models/todo_model.dart';
 import 'package:todo_list_provider/providers/all_providers.dart';
 
 class TodoListItems extends ConsumerStatefulWidget {
